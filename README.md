@@ -6,11 +6,13 @@ The client is maintained by the [RabbitMQ team at Pivotal](http://github.com/rab
 ## Using
 
 Use `runtracer` (for UNIX-like systems) or `runtracer.bat` (for Windows)
-to run the tracer. The program accepts parameters
+to run the tracer, e.g.:
 
 ```
 runjava.sh com.rabbitmq.tools.Tracer listenPort connectHost connectPort
 ```
+
+The program accepts parameters:
 
  * `listenPort`: port to listen for incoming AMQP connections on - defaults to 5673.
  * `connectHost`: hostname to use when making an outbound connection in response to an incoming connection - defaults to localhost.
@@ -32,6 +34,6 @@ Files are then in the `target` directory.
 
 ## License
 
-This package, the RabbitMQ Java client library, is triple-licensed under
+This package, the RabbitMQ AMQP protocol analyzer library, is triple-licensed under
 the Mozilla Public License 1.1 ("MPL"), the GNU General Public License
 version 2 ("GPL") and the Apache License version 2 ("ASL").
