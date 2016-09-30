@@ -9,7 +9,7 @@ Use `runtracer` (for UNIX-like systems) or `runtracer.bat` (for Windows)
 to run the tracer, e.g.:
 
 ```
-runjava.sh com.rabbitmq.tools.Tracer listenPort connectHost connectPort
+runtracer listenPort connectHost connectPort
 ```
 
 The program accepts parameters:
