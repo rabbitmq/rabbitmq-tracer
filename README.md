@@ -1,3 +1,5 @@
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.rabbitmq/tracer/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.rabbitmq/tracer)
+
 ## RabbitMQ Tracer
 
 This repository contains source code of the [RabbitMQ AMQP protocol analyzer](https://www.rabbitmq.com/java-tools.html#tracer).
