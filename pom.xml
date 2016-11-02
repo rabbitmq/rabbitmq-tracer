@@ -40,8 +40,9 @@
   </developers>
 
   <scm>
-    <url>https://github.com/rabbitmq/rabbitmq-tracer.git</url>
-    <connection>scm:git:https://github.com/rabbitmq/rabbitmq-tracer.git</connection>
+    <url>https://github.com/rabbitmq/rabbitmq-tracer</url>
+    <connection>scm:git:git://github.com/rabbitmq/rabbitmq-tracer.git</connection>
+    <developerConnection>scm:git:git@github.com:rabbitmq/rabbitmq-tracer.git</developerConnection>
   </scm>
 
   <organization>
