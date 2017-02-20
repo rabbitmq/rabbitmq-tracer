@@ -54,7 +54,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-    <rabbitmq.version>3.6.5</rabbitmq.version>
+    <rabbitmq.version>4.1.0</rabbitmq.version>
     <junit.version>4.12</junit.version>
 
     <!-- to sign artifacts when releasing -->
