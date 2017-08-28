@@ -1,11 +1,10 @@
 <?xml version="1.0"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
-  xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.rabbitmq</groupId>
   <artifactId>tracer</artifactId>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>1.0.1.RC1</version>
   <packaging>jar</packaging>
 
   <name>RabbitMQ AMQP Tracer</name>
@@ -43,6 +42,7 @@
     <url>https://github.com/rabbitmq/rabbitmq-tracer</url>
     <connection>scm:git:git://github.com/rabbitmq/rabbitmq-tracer.git</connection>
     <developerConnection>scm:git:git@github.com:rabbitmq/rabbitmq-tracer.git</developerConnection>
+    <tag>v1.0.1.RC1</tag>
   </scm>
 
   <organization>
