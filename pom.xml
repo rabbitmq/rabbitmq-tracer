@@ -4,7 +4,7 @@
 
   <groupId>com.rabbitmq</groupId>
   <artifactId>tracer</artifactId>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>1.0.1.RC1</version>
   <packaging>jar</packaging>
 
   <name>RabbitMQ AMQP Tracer</name>
@@ -42,7 +42,7 @@
     <url>https://github.com/rabbitmq/rabbitmq-tracer</url>
     <connection>scm:git:git://github.com/rabbitmq/rabbitmq-tracer.git</connection>
     <developerConnection>scm:git:git@github.com:rabbitmq/rabbitmq-tracer.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>v1.0.1.RC1</tag>
   </scm>
 
   <organization>
