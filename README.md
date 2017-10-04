@@ -5,6 +5,13 @@
 This repository contains source code of the [RabbitMQ AMQP protocol analyzer](https://www.rabbitmq.com/java-tools.html#tracer).
 The client is maintained by the [RabbitMQ team at Pivotal](http://github.com/rabbitmq/).
 
+## Installing
+
+This is a standalone tool that is distributed in binary form using
+[Bintray](https://bintray.com/rabbitmq/java-tools/tracer) or
+[GitHub releases](https://github.com/rabbitmq/rabbitmq-tracer/releases)
+and as a JAR file on Maven Central (see above).
+
 ## Using
 
 Use `runtracer` (for UNIX-like systems) or `runtracer.bat` (for Windows)
