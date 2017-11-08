@@ -66,6 +66,7 @@
     <maven.assembly.plugin.version>3.1.0</maven.assembly.plugin.version>
     <maven.install.plugin.version>2.5.2</maven.install.plugin.version>
     <checksum.maven.plugin.version>1.6</checksum.maven.plugin.version>
+    <maven.jar.plugin.version>3.0.2</maven.jar.plugin.version>
 
     <!-- to sign artifacts when releasing -->
     <gpg.keyname>6026DFCA</gpg.keyname>
@@ -137,6 +138,19 @@
         <version>${maven.install.plugin.version}</version>
         <configuration>
             <createChecksum>true</createChecksum>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>${maven.jar.plugin.version}</version>
+        <configuration>
+          <archive>
+            <manifestEntries>
+              <Automatic-Module-Name>com.rabbitmq.tracer</Automatic-Module-Name>
+            </manifestEntries>
+          </archive>
         </configuration>
       </plugin>
 
