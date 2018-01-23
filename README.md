@@ -36,7 +36,7 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for an overview of the development proc
 To build the JAR file:
 
 ```
-mvn clean package
+./mvnw clean package
 ```
 
 Files are then in the `target` directory.
@@ -44,7 +44,7 @@ Files are then in the `target` directory.
 To build the JAR file, source and binary distributions:
 
 ```
-mvn clean package -P assemblies
+./mvnw clean package -P assemblies
 ```
 
 ## License
