@@ -8,7 +8,7 @@
   <version>1.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>RabbitMQ AMQP Tracer</name>
+  <name>RabbitMQ AMQP 0-9-1 Tracer</name>
   <description>A Java-based AMQP protocol analyzer.</description>
   <url>http://www.rabbitmq.com</url>
 
@@ -54,7 +54,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-    <rabbitmq.version>4.1.0</rabbitmq.version>
+    <client.version>4.8.0</client.version>
     <junit.version>4.12</junit.version>
 
     <maven.compiler.plugin.version>3.5.1</maven.compiler.plugin.version>
@@ -77,7 +77,7 @@
     <dependency>
       <groupId>com.rabbitmq</groupId>
       <artifactId>amqp-client</artifactId>
-      <version>${rabbitmq.version}</version>
+      <version>${client.version}</version>
     </dependency>
 
     <dependency>
