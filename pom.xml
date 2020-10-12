@@ -55,7 +55,7 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
     <client.version>4.8.0</client.version>
-    <junit.version>4.12</junit.version>
+    <junit.version>4.13.1</junit.version>
 
     <maven.compiler.plugin.version>3.5.1</maven.compiler.plugin.version>
     <versions.maven.plugin.version>2.3</versions.maven.plugin.version>
