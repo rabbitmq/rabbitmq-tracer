@@ -3,7 +3,7 @@
 ## RabbitMQ Tracer
 
 This repository contains source code of the [RabbitMQ AMQP protocol analyzer](https://www.rabbitmq.com/java-tools.html#tracer).
-The client is maintained by the [RabbitMQ team at Pivotal](https://github.com/rabbitmq/).
+The client is maintained by the [RabbitMQ team at VMware](https://github.com/rabbitmq/).
 
 ## Installing
 
@@ -50,5 +50,5 @@ To build the JAR file, source and binary distributions:
 ## License
 
 This package, the RabbitMQ AMQP protocol analyzer library, is triple-licensed under
-the Mozilla Public License 1.1 ("MPL"), the GNU General Public License
+the Mozilla Public License 2.0 ("MPL"), the GNU General Public License
 version 2 ("GPL") and the Apache License version 2 ("ASL").

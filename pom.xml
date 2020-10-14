@@ -24,8 +24,8 @@
       <distribution>repo</distribution>
     </license>
     <license>
-      <name>MPL 1.1</name>
-      <url>https://www.mozilla.org/MPL/MPL-1.1.txt</url>
+      <name>MPL 2.0</name>
+      <url>https://www.mozilla.org/en-US/MPL/2.0/</url>
       <distribution>repo</distribution>
     </license>
   </licenses>
@@ -34,7 +34,7 @@
     <developer>
       <email>info@rabbitmq.com</email>
       <name>Team RabbitMQ</name>
-      <organization>Pivotal Software, Inc.</organization>
+      <organization>VMware</organization>
       <organizationUrl>https://rabbitmq.com</organizationUrl>
     </developer>
   </developers>
@@ -46,7 +46,7 @@
   </scm>
 
   <organization>
-    <name>Pivotal Software, Inc.</name>
+    <name>VMware</name>
     <url>https://www.rabbitmq.com</url>
   </organization>
 
