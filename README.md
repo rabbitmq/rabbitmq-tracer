@@ -8,7 +8,6 @@ The client is maintained by the [RabbitMQ team at VMware](https://github.com/rab
 ## Installing
 
 This is a standalone tool that is distributed in binary form using
-[Bintray](https://bintray.com/rabbitmq/java-tools/tracer) or
 [GitHub releases](https://github.com/rabbitmq/rabbitmq-tracer/releases)
 and as a JAR file on Maven Central (see above).
 
