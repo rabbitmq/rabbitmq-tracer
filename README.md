@@ -3,7 +3,7 @@
 ## RabbitMQ Tracer
 
 This repository contains source code of the [RabbitMQ AMQP protocol analyzer](https://www.rabbitmq.com/java-tools.html#tracer).
-The client is maintained by the [RabbitMQ team at VMware](https://github.com/rabbitmq/).
+The client is maintained by the [RabbitMQ team at Broadcom](https://github.com/rabbitmq/).
 
 ## Installing
 

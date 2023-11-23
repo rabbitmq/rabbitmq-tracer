@@ -34,7 +34,7 @@
     <developer>
       <email>info@rabbitmq.com</email>
       <name>Team RabbitMQ</name>
-      <organization>VMware</organization>
+      <organization>Broadcom</organization>
       <organizationUrl>https://rabbitmq.com</organizationUrl>
     </developer>
   </developers>
@@ -46,7 +46,7 @@
   </scm>
 
   <organization>
-    <name>VMware</name>
+    <name>Broadcom</name>
     <url>https://www.rabbitmq.com</url>
   </organization>
 
